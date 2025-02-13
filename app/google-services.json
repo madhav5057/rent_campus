@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "174098216285",
+    "project_id": "rent-18a33",
+    "storage_bucket": "rent-18a33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174098216285:android:dae75a7f757a9feccde4b4",
+        "android_client_info": {
+          "package_name": "com.campus.rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174098216285-rr5omdeb05luqj4akft5m0ql1rrkbvq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.campus.rent",
+            "certificate_hash": "dc1e222c66860f434ecdfd41e39fa1ec68a2778d"
+          }
+        },
+        {
+          "client_id": "174098216285-7hbcp7ts88isjki9qc2gft1fm1v1jflc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHibxwsXoE74S6Ff2GW_N0vj5VkaxITYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174098216285-7hbcp7ts88isjki9qc2gft1fm1v1jflc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

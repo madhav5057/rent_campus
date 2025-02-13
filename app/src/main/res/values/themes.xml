@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/back_main</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/back_main</item>
+
+    </style>
+    i
+
+    <style name="Theme.Rent" parent="Base.Theme.Rent" />
+
+    <style name="theme.main" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/back_main</item>
+        <item name="android:statusBarColor">@color/back_main_grey</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/back_main</item>
+
+    </style>
+
+    <style name="theme.publish" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/back_main</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/back_main</item>
+
+    </style>
+
+
+    <style name="theme.auth" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/back_main</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/back_main</item>
+
+    </style>
+
+    <style name="theme.propertyDetail" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/back_main</item>
+
+    </style>
+
+
+    <style name="Widget.App.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+
+    </style>
+
+</resources>

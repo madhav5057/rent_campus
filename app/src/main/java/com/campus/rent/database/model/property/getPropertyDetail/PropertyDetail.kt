@@ -1,0 +1,31 @@
+package com.campus.rent.database.model.property.getPropertyDetail
+
+data class PropertyDetail(
+    val address: String,
+    val amenities: List<String>,
+    val bathroom: Int,
+    val bedroom: Int,
+    val city: String,
+    val country: String,
+    val created_at: String,
+    val description: String,
+    val gender: String,
+    val images: List<String>,
+    val latitude: String,
+    val listed_by: String,
+    val longitude: String,
+    val owner_contact_no: String,
+    val owner_email: String,
+    val owner_id: String,
+    val owner_name: String,
+    val pincode: String,
+    val price: String,
+    val property_id: Int,
+    val property_type: String,
+    val security_amount: String,
+    val state: String,
+    val title: String,
+    val updated_at: String,
+    val user_id: String,
+    val user_img: String
+)

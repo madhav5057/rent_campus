@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bottom_sheet"
+    tools:context=".mainActivity.fragments.publish.fragments.ExitFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/urbanist_bold"
+            android:gravity="center"
+            android:text="@string/are_you_sure_you_want_to_cancel_the_process_of_add_property"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/no_back"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/no"
+                android:layout_weight="1"
+                android:backgroundTint="@color/back_purple"
+                android:fontFamily="@font/urbanist_semibold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/yes_back"
+                android:layout_weight="1"
+                android:textColor="@color/back_purple"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/yes"
+                android:fontFamily="@font/urbanist_semibold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

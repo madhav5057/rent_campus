@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_main_grey"
+    tools:context=".mainActivity.fragments.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back_main_grey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:text="@string/find_your_place_in"
+                    android:textColor="@color/text_sec"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_location_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/urbanist_bold"
+                    android:maxLines="1"
+                    android:text="@string/dehradun"
+                    android:textColor="@color/text_main"
+                    android:textSize="20sp"
+                    app:drawableEndCompat="@drawable/arrow_down"
+                    app:drawableStartCompat="@drawable/location" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:textSize="16sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:autofillHints="none"
+                android:background="@drawable/search_vie_background"
+                android:clickable="false"
+                android:drawableStart="@drawable/search"
+                android:drawableEnd="@drawable/filter"
+                android:drawablePadding="8dp"
+                android:enabled="true"
+                android:focusable="false"
+                android:hint="@string/search_college_address_city"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:maxLines="1"
+                android:minLines="1"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColorHint="@color/text_sec"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/urbanist_bold"
+                android:maxLines="1"
+                android:text="@string/near_your_location"
+                android:textColor="@color/text_main"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tv_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/urbanist_medium"
+                android:maxLines="1"
+                android:text="@string/_243_properties_in_surabaya"
+                android:textColor="@color/text_sec"
+                android:textSize="14sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/propertyRv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                tools:itemCount="10"
+                tools:listitem="@layout/item_property" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

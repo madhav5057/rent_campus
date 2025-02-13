@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    icon color
+    <color name="bottom_navigation_icon_unselected">#959393</color>
+    <color name="bottom_navigation_icon_selected">#545ae6</color>
+
+
+
+
+</resources>
