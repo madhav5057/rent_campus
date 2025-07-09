@@ -19,9 +19,9 @@
 <p float="left">
   <img src="screenshot1.png" width="200" alt="Home Screen">
   <img src="screenshot2.png" width="200" alt="Filter/Search Screen">
-  <img src="screenshot3.png" width="200" alt="Room Detail View">
-  <img src="screenshot4.png" width="200" alt="Favorites Screen">
-  <img src="screenshot5.png" width="200" alt="Favorites Screen">
+  <img src="screenshot7.png" width="200" alt="Favorites Screen">
+  <img src="screenshot3.png" width="200" alt="Favorites Screen">
+
 </p>
 
 ## 🛠️ Built With
