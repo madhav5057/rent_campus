@@ -17,7 +17,7 @@
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="screenshots/screenshot1.png" width="200" alt="Home Screen">
+  <img src="screenshot1.png" width="200" alt="Home Screen">
   <img src="screenshots/screenshot2.png" width="200" alt="Filter/Search Screen">
   <img src="screenshots/screenshot3.png" width="200" alt="Room Detail View">
   <img src="screenshots/screenshot4.png" width="200" alt="Favorites Screen">
