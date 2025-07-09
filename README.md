@@ -18,14 +18,11 @@
 
 <p float="left">
   <img src="screenshot1.png" width="200" alt="Home Screen">
-  <img src="screenshots/screenshot2.png" width="200" alt="Filter/Search Screen">
-  <img src="screenshots/screenshot3.png" width="200" alt="Room Detail View">
-  <img src="screenshots/screenshot4.png" width="200" alt="Favorites Screen">
+  <img src="screenshot2.png" width="200" alt="Filter/Search Screen">
+  <img src="screenshot3.png" width="200" alt="Room Detail View">
+  <img src="screenshot4.png" width="200" alt="Favorites Screen">
+  <img src="screenshot5.png" width="200" alt="Favorites Screen">
 </p>
-
-> 📌 Replace the `screenshots/*.png` paths with your actual screenshot files
-
----
 
 ## 🛠️ Built With
 
@@ -35,3 +32,6 @@
 - **Dagger-Hilt** – Dependency injection
 - **Jetpack Components** – Lifecycle-aware components (ViewModel, LiveData)
 - **Material Design** – Beautiful UI elements
+- **Firebase** – For Authentication Support
+- **Google Map Api** - For Maps Used
+
